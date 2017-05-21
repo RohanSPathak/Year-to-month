@@ -30,49 +30,6 @@ int month(int day, int year, int *m, int *d)
 	}
 	else return 0;
 
-
-
-
-
-/*
-	if(yearisleap)
-	{
-		if (day<=366)
-		{
-
-			//Year is a leap year
-			int sum=0;
-			int i=0;
-			while((sum + leapyear[i])<day)
-			{
-				sum +=leapyear[i];
-				++i;
-			}
-			*d=day-sum;
-			*m=i+1;
-			return 1;
-		} 
-		else return 0;
-
-	}
-	else
-	{
-		if(day<=365)
-		{
-			//Year is a normal year
-			int sum=0;
-			int i=0;
-			while((sum + normalyear[i])<day)
-			{
-				sum +=normalyear[i];
-				++i;
-			}
-			*d=day-sum;
-			*m=i+1;
-			return 1;
-		}
-		else return 0;
-	}*/
 }
 
 main()
